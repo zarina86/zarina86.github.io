@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  background: #a2b9bc;
+  padding: 20px;
+  justify-content: center;
+}
+ 
+.footer h3 {
+  text-align: center;
+}
+@media screen and (min-width: 550px) {
+  .footer {
+    flex-direction: row;
+    justify-content: center;
+  }
+ 
+
+ 
+
+
+
+
+
+
+

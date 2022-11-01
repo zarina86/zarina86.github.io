@@ -1,0 +1,17 @@
+.feedbacks {
+  width: 100%;
+  padding: 40px 0;
+  background: #daebe8;
+}
+
+.feedbacks .columns {
+  display: flex;
+  column-gap: 30px;
+  row-gap: 15px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.feedbacks .column {
+  border: 1px dotted  #8d9db6;
+}

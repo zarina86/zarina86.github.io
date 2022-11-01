@@ -1,0 +1,10 @@
+.prices {
+  width: 100%;
+  padding: 40px 0;
+  background: #a2b9bc;
+}
+
+.prices .column {
+ background: #c5d5c5;
+ border: 3px solid #c0ded9; 
+}

@@ -1,0 +1,25 @@
+.intro {
+  background-image: linear-gradient(rgba(130, 186, 86, 0.1), rgba(130, 180, 80, 0.1) 95%), url("coal_flames.jpg");
+  background-size: cover;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center center;
+  text-align: center;
+}
+
+.intro-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 50px;
+  opacity: 0.1;
+}
+
+.intro .text-lead {
+  font-size: 20px;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  color:  #FFFFFF;
+  max-width: 70%
+  text-align: center;
+  margin: 10px 15% 10px 15%;
+}
