@@ -19,37 +19,38 @@
 </head>
 <body>
   <div class="container">
-    <div class="header">
-      <nav>
+    <div class="header" id="back">
+      <nav class="header-nav">
         <h2>Coal.inc</h2>      
-        <ul>
-          <li><a href="#about">О нас</a></li>
-          <li><a href="#feedback">Отзывы</a></li>
-          <li><a href="#prices">Цены</a></li>
+        <ul class="header-ul">
+          <li class="header-li"><a href="#about">О нас</a></li>
+          <li class="header-li"><a href="#feedbacks">Отзывы</a></li>
+          <li class="header-li"><a href="#prices">Цены</a></li>
           <li><a href="#buy">Купить</a></li>
         </ul>
-        <div class="button cta-contact">
+        <div class="button header-cta-contact">
           Написать
         </div>
       </nav>
     </div>
-    <div class="main">
-      <div class="intro">
+    <div class="main main-div">
+      <div class="intro" id="about">
         <img class="intro-logo buffer-both" src="img/coal_logo.png" alt="Logo">
         <h1 class="title-large">Мы производим фракцию</h1>
-        <h2 class="text-lead">Только у нас самая фракционная фракция из самого высокачественного угля!</h2> 
-        <h2 class="text-lead">Покупайте оптом, получайте скидку постоянного клиента!</h2>
+        <h2 class="intro-text-lead">Только у нас самая фракционная фракция из самого высокачественного угля!</h2> 
+        <h2 class="intro-text-lead">Покупайте оптом, получайте скидку постоянного клиента!</h2>
         <div>
-          <a class="button button-green buffer-bottom" href="#">Купить</a>
+          <a class="button button-green buffer-bottom" href="#buy">Купить</a>
+          <a class="button button-grey buffer-bottom" href="#features">Далее ></a>
         </div>
       </div>
 
-      <div class="features">
+      <div class="features" id="features">
         <div class="columns">
           <div class="column">
             <img src="icons/people.png" alt="People" class="icon buffer-both">
             <div class="title-medium">
-              <p>15&nbsp000</p>
+              <p>15&nbsp;000</p>
               <p>семей</p>
               <p class="text-lead buffer-both">Отапливают дома нашим углем</p>
             </div>
@@ -77,43 +78,49 @@
            </div>
           </div>
         </div>
+        <div>
+          <a class="button button-grey button-position" href="#feedbacks">Далее ></a>
+        </div>
       </div>
 
-      <div class="feedbacks">
-        <div class="columns">
-          <div class="column">
+      <div class="feedbacks" id="feedbacks">
+        <div class="columns feedbacks-columns">
+          <div class="column feedbacks-column">
             <p class="title-small">Надежда</p>
             <p class="text-small buffer-both">"Раньше мучались, топили разносортным углем - пыль, мелочь, камни и порода. Каждый хозяин частного дома знает
              как важен качественный уголь для "умной" печки. Намучавшись с загрузкой угля и вычищая горы золы после, мы с мужем принял и решение - найти подходящий уголь.
              Посидев на профильных форумах, и почитав отзывы людей, мы нашли необходимое - фракционный уголь Орех, вот наше спасение!"</p>
           </div>
-          <div class="column">
+          <div class="column feedbacks-column">
             <p class="title-small">Амира</p>
             <p class="text-small buffer-both">"Купили "умную" печь для своего частного дома по примеру соседей и по их же рекомендациям начали искать подходящий уголь. 
              Нашли данную фирму через интернет. Заказали, оплатили и в течении 2 дней нам доставили уголь. Очень довольны, загрузил уголь раз в 5 дней, потом вычишаешь золу - 
              которой не так много. Красота.</p>
           </div>
         </div>
+        <div>
+          <a class="button button-grey button-position" href="#prices">Далее ></a>
+        </div>
       </div>
 
-      <div class="prices">
-        <div class="columns">
-          <div class="column">
+      <div class="prices" id="prices">
+        <div class="columns" id="buy">
+          <div class="column prices-column">
             <ul class="text-medium buffer-both">
-              <li class="buffer-both">Рядовой(Р) 0-200(300)мм</li>
+              <li class="buffer-both">Рядовой(Р) 0-200мм</li>
               <li class="text-small">1 т</li>
               <li>&nbsp;</li>
               <li class="text-small">Доставка включена</li>
             </ul>
             <div class="title-medium">
-              1500&nbsp;₽
+              7500&nbsp;₸
             </div>
             <div class="buffer-both">
               <a class="button button-blue buffer-bottom" href="#buy">Заказать</a>
             </div>
           </div>
-           
-          <div class="column">
+                    
+          <div class="column prices-column">
             <ul class="text-medium buffer-both">
               <li class="buffer-both">Крупный(К), 50-100мм</li>
               <li class="text-small">1 т</li>
@@ -121,14 +128,14 @@
               <li class="text-small">Доставка включена</li>
             </ul>
             <div class="title-medium">
-              2000&nbsp;₽
+              9000&nbsp;₸
             </div>
             <div class="buffer-both">
               <a class="button button-blue buffer-bottom" href="#buy">Заказать</a>
             </div>
           </div>
                    
-          <div class="column">
+          <div class="column prices-column">
             <ul class="text-medium buffer-both">
              <li class="buffer-both">Орех(О), 25-50мм</li>
              <li class="text-small">1 т</li>
@@ -136,14 +143,14 @@
              <li class="text-small">Доставка включена</li>
            </ul>
            <div class="title-medium">
-             2500&nbsp;₽
+             10500&nbsp;₸
             </div>
             <div class="buffer-both">
               <a class="button button-blue buffer-bottom" href="#buy">Заказать</a>
             </div>
           </div>
 
-          <div class="column">
+          <div class="column prices-column">
             <ul class="text-medium buffer-both">
               <li class="buffer-both">Мелкий(М) 13-25мм</li>
               <li class="text-small">1 т</li>
@@ -151,33 +158,41 @@
               <li class="text-small">Доставка включена</li>
             </ul>
             <div class="title-medium">
-              3000&nbsp;₽
+              12000&nbsp;₸
             </div>
             <div class="buffer-both">
               <a class="button button-blue buffer-bottom" href="#buy">Заказать</a>
             </div>
           </div>
         </div>
+        <div>
+          <a class="button button-grey button-position" href="#contacts">Далее ></a>
+        </div>
       </div>
     
-      <div class="contacts">
+      <div class="contacts" id="contacts">
         <div class="columns">
           <div class="column1">
            <img src="img/coal1.jpg" alt="Coal" class="image">
           </div>
           <div class="column1">
            <h3 class="buffer-both">С нами можно связаться по номеру:</h3>
-           <p class="buffer-both"> 8 7232 21 29 27</p>
+           <p class="buffer-both">8 7232 21 29 27</p>
            <h4 class="buffer-both">Заказать прямо сейчас:</h4>
            <div class="buffer-both">
-             <a class="button button-blue" href="#">Купить</a>
+             <a class="button button-blue" href="#buy">Купить</a>
            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="footer">
-      <h3>Coal.inc and Ko</h3>
+      <h3 class="h3-footer">Coal.inc</h3> 
+      <ul class="ul-footer">
+        <li class="li-footer"><a href="#about">О нас</a></li>
+        <li class="li-footer"><a href="#feedbacks">Отзывы</a></li>
+        <li><a href="#back">Вернуться</a></li>
+       </ul>
     </div>
   </div>
 </body>

@@ -1,19 +1,18 @@
 * {
   box-sizing: border-box;
-  max-width: 1040px;
+  max-width: 1240px;
   margin: 0;
   padding:0;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-   text-decoration: none;
-   color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
-
 
 body {
   width: 100%;
@@ -25,6 +24,11 @@ body {
 
 .buffer-bottom {
   margin: 0px 0px 10px 0px;
+}
+
+.button-position {
+ float: right;
+ margin: 20px 20px 10px 20px;
 }
 
 .container {
@@ -52,8 +56,13 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
  .columns {
   flex-direction: column;
 }
  
+
+
+
+
+

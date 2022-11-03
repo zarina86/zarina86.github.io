@@ -1,10 +1,10 @@
 .feedbacks {
   width: 100%;
-  padding: 40px 0;
+  padding: 40px 0px 10px 0px;
   background: #daebe8;
 }
 
-.feedbacks .columns {
+.feedbacks-columns {
   display: flex;
   column-gap: 30px;
   row-gap: 15px;
@@ -12,6 +12,6 @@
   margin-left: 40px;
 }
 
-.feedbacks .column {
+.feedbacks-column {
   border: 1px dotted  #8d9db6;
 }
