@@ -1,6 +1,8 @@
 .header {
   background: #a2b9bc;
   padding: 30px;
+  position:fixed;
+  width: 100%;
 }
  
 .header-nav {

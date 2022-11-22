@@ -1,17 +1,17 @@
 .intro {
-  background-image: linear-gradient(rgba(138, 186, 86, 0.1), rgba(138, 180, 80, 0.1) 100%), url("flames2.jpg");
+  background-image: linear-gradient(rgba(138, 186, 86, 0.1), rgba(138, 180, 80, 0.1) 100%);
   background-size: cover;
-  background-color: white;
+  background-color: none;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position:center center;
+  background-attachment: scroll;
+  background-position:top, center;
   text-align: center;
 }
 
 .intro-logo {
   width: 120px;
   height: auto;
-  margin-bottom: 50px;
+  margin-bottom: 800px;
   opacity: 0.1;
 }
 
